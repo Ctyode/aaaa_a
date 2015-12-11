@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: "standard 07_53";
+    background-image: url("../images/background.png");
+    background-color: #CAC7E4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+main section:nth-child(1) .left {
+    background-image: url("../images/flamie.2048x2048.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main section:nth-child(1) .right h1 {
+    font-family: "standard 07_53";
+    font-weight: 100;
+    text-align: center;
+}
+
+main section:nth-child(1) .right .links a {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main section:nth-child(1) .right .links a.vk {
+    background-image: url("../images/vk2.png");
+}
+
+main section:nth-child(1) .right .links a.plane {
+    background-image: url("../images/telegram2.png");
+}
+
+main section:nth-child(1) .right .links a.github {
+    background-image: url("../images/github2.png");
+}
+
+main section:nth-child(2) .button {
+    background: none;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    /* IDEA: кнопочки как-то должны отвечать на hover (opacity? filter?)*/
+}
+
+main section:nth-child(2) #button_play {
+    background-image: url("../images/play.png");
+}
+
+main section:nth-child(2) #button_pause {
+    background-image: url("../images/pause.png");
+}
+
+main section:nth-child(2) #button_volume_increase {
+    background-image: url("../images/plus.png");
+}
+
+main section:nth-child(2) #button_volume_decrease {
+    background-image: url("../images/minus.png");
+}
+
+@media (orientation: landscape) {
+    main section:nth-child(1) {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main section:nth-child(1) .left {
+        width: 80vh;
+        height: 80vh;
+        float: left;
+    }
+    
+    main section:nth-child(1) .right {
+        width: 80vh;
+        height: 80vh;
+        float: left;
+    }
+    
+    main section:nth-child(1) .right h1 {
+        margin: 0;
+        height: 40vh;
+        line-height: 40vh;
+        font-size: 15vh;
+    }
+    
+    main section:nth-child(1) .right .links {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main section:nth-child(1) .right .links a {
+        display: block;
+        position: relative;
+        float: left;
+        width: 20vh;
+        height: 20vh;
+    }
+    
+    main section:nth-child(1) .right .links a:not(:nth-last-child(1)) {
+        margin-right: 5vh;
+    }
+    
+    main section:nth-child(2) {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main section:nth-child(2) .button {
+        width: 15vh;
+        height: 15vh;
+        float: left;
+    }
+}
+
+@media (orientation: portrait) {
+    main section:nth-child(1) {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main section:nth-child(1) .left {
+        width: 40vw;
+        height: 40vw;
+        float: left;
+    }
+    
+    main section:nth-child(1) .right {
+        width: 40vw;
+        height: 40vw;
+        float: left;
+    }
+    
+    main section:nth-child(1) .right h1 {
+        margin: 0;
+        height: 17vw;
+        line-height: 20vw;
+        font-size: 8vw;
+    }
+    
+    main section:nth-child(1) .right .links {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main section:nth-child(1) .right .links a {
+        display: block;
+        position: relative;
+        float: left;
+        width: 10vw;
+        height: 10vw;
+    }
+    
+    main section:nth-child(1) .right .links a:not(:nth-last-child(1)) {
+        margin-right: 5vw;
+    }
+    
+    main section:nth-child(2) {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main section:nth-child(2) .button {
+        width: 10vw;
+        height: 10vw;
+        float: left;
+    }
+}
