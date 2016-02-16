@@ -1,5 +1,5 @@
 body {
-    margin-top: -5px;
+    margin-top: -30px;
     color: white;
     font-family: "standard 07_53";
     background-image: url("../images/background.png");
@@ -8,113 +8,118 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    /*min-width: 1200px;*/
+    min-width: 1200px;
+    min-height: 680px;
 }
 
-h1 {
-    font-family: "standard 07_53";
-    font-weight: 100;
-    position: absolute;
-    margin-top: 140px;
-    font-size: 100px;
-    margin-left: 700px;
-}
+@media (orientation: landscape) {
 
-.more {
-    font-family: "standard 07_53";
-    font-weight: 100;
-    margin-top: 670px;
-    margin-left: 580px;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    position: absolute;
-}
+    h1 {
+        font-family: "standard 07_53";
+        font-weight: 100;
+        position: absolute;
+        margin-top: 140px;
+        font-size: 100px;
+        margin-left: 700px;
+    }
 
-.vk {
-    position: absolute;
-    margin-top: 310px;
-    margin-left: 700px;
-    background-image: url("../images/vk2.png");
-    width: 120px;
-    height: 120px;
-    background-size: contain;
-}
+    .more {
+        font-family: "standard 07_53";
+        font-weight: 100;
+        margin-top: 660px;
+        margin-left: 580px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+    }
 
-.github {
-    position: absolute;
-    margin-top: 310px;
-    margin-left: 860px;
-    background-image: url("../images/github2.png");
-    width: 120px;
-    height: 120px;
-    background-size: contain;
-}
+    .vk {
+        position: absolute;
+        margin-top: 310px;
+        margin-left: 700px;
+        background-image: url("../images/vk2.png");
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+    }
 
-.plane {
-    position: absolute;
-    margin-top: 310px;
-    margin-left: 1020px;
-    background-image: url("../images/telegram2.png");
-    width: 120px;
-    height: 120px;
-    background-size: contain;
-}
+    .github {
+        position: absolute;
+        margin-top: 310px;
+        margin-left: 860px;
+        background-image: url("../images/github2.png");
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+    }
+
+    .plane {
+        position: absolute;
+        margin-top: 310px;
+        margin-left: 1020px;
+        background-image: url("../images/telegram2.png");
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+    }
 
 
-.wolf {
-    background-image: url("../images/flamie.2048x2048.png");
-    background-size: contain;
-    width: 550px;
-    height: 550px;
-    position: absolute;
-    margin-left: 80px;
-    margin-top: 30px;
-}
+    .wolf {
+        background-image: url("../images/flamie.2048x2048.png");
+        background-size: contain;
+        width: 550px;
+        height: 550px;
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
 
-.button {
-    background: none;
-    background-position: center;
-    background-size: cover;
-    cursor: pointer;
-}
+    .button {
+        background: none;
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+    }
 
-#button_play {
-    position: absolute;
-    margin-top: 550px;
-    margin-left: 480px;
-    background-image: url("../images/play.png");
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-}
+    #button_play {
+        position: absolute;
+        margin-top: 540px;
+        margin-left: 480px;
+        background-image: url("../images/play.png");
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
 
-#button_pause {
-    position: absolute;
-    margin-top: 550px;
-    margin-left: 580px;
-    background-image: url("../images/pause.png");
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-}
+    #button_pause {
+        position: absolute;
+        margin-top: 540px;
+        margin-left: 580px;
+        background-image: url("../images/pause.png");
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
 
-#button_volume_increase {
-    position: absolute;
-    margin-top: 550px;
-    margin-left: 680px;
-    background-image: url("../images/plus.png");
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-}
+    #button_volume_increase {
+        position: absolute;
+        margin-top: 540px;
+        margin-left: 680px;
+        background-image: url("../images/plus.png");
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
 
-#button_volume_decrease {
-    position: absolute;
-    margin-top: 550px;
-    margin-left: 780px;
-    background-image: url("../images/minus.png");
-    width: 100px;
-    height: 100px;
-    background-size: contain;
+    #button_volume_decrease {
+        position: absolute;
+        margin-top: 540px;
+        margin-left: 780px;
+        background-image: url("../images/minus.png");
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
+
 }
