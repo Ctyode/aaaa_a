@@ -1,18 +1,25 @@
-body {
-    margin-top: -30px;
-    color: white;
-    font-family: "standard 07_53";
-    background-image: url("../images/background.png");
-    background-color: #CAC7E4;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    min-width: 1200px;
-    min-height: 680px;
-}
-
 @media (orientation: landscape) {
+
+    body {
+        margin-top: -30px;
+        color: white;
+        font-family: "standard 07_53";
+        background-image: url("../images/background.png");
+        background-color: #CAC7E4;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        min-width: 1200px;
+        min-height: 680px;
+    }
+
+    main {
+        position: relative;
+        margin: auto;
+        /*width: 700px;*/
+        /*height: 680px;*/
+    }
 
     h1 {
         font-family: "standard 07_53";
@@ -119,6 +126,118 @@ body {
         background-image: url("../images/minus.png");
         width: 100px;
         height: 100px;
+        background-size: contain;
+    }
+
+}
+
+
+@media (orientation: portrait) {
+
+    body {
+        color: white;
+        font-family: "standard 07_53";
+        background-image: url("../images/background.png");
+        background-color: #CAC7E4;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        margin-left: 100px;
+        margin-top: -30px;
+    }
+
+    main {
+        position: relative;
+        margin: auto;
+    }
+
+    h1 {
+        font-family: "standard 07_53";
+        font-weight: 100;
+        line-height: 70px;
+        position: absolute;
+        margin-top: 50px;
+        font-size: 70px;
+        margin-left: 30px;
+    }
+
+    .more {
+        font-family: "standard 07_53";
+        font-weight: 100;
+        margin-top: 640px;
+        margin-left: 80px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        line-height: 40px;
+    }
+
+    .vk {
+        position: absolute;
+        margin-top: 450px;
+        margin-left: 5px;
+        background-image: url("../images/vk2.png");
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
+
+    .github {
+        position: absolute;
+        margin-top: 450px;
+        margin-left: 120px;
+        background-image: url("../images/github2.png");
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
+
+    .plane {
+        position: absolute;
+        margin-top: 450px;
+        margin-left: 230px;
+        background-image: url("../images/telegram2.png");
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
+
+
+    .wolf {
+        background-image: url("../images/flamie.2048x2048.png");
+        background-size: contain;
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        margin-top: 130px;
+    }
+
+    .button {
+        background: none;
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    #button_play {
+        position: absolute;
+        margin-top: 560px;
+        margin-left: 80px;
+        background-image: url("../images/play.png");
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+    }
+
+    #button_pause {
+        position: absolute;
+        margin-top: 560px;
+        margin-left: 170px;
+        background-image: url("../images/pause.png");
+        width: 80px;
+        height: 80px;
         background-size: contain;
     }
 
