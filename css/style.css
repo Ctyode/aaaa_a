@@ -27,6 +27,7 @@ body {
   font-weight: 500;
   margin: 0;
   -webkit-font-smoothing: antialiased;
+  margin-bottom: 100px;
 }
 
 .header {
@@ -35,7 +36,9 @@ body {
   width: 100%;
 }
 
-.baltzer-web {margin: auto;}
+.baltzer-web {
+  margin: auto;
+}
 
 .baltzer-web .title {
   font-weight: 900;
@@ -54,16 +57,16 @@ body {
 }
 
 .baltzer-web .first.text {
-  width: 476px;
+  width: 514px;
   height: 216px;
-  font-size: 15px;
+  font-size: 17px;
   color: #5F5F5F;
-  line-height: 27px;
+  line-height: 28px;
   margin-top: 98px;
   float: right;
 }
 
-.baltzer-web .images {
+.baltzer-web .first.images {
   width: 943px;
   height: 455px;
 }
@@ -71,38 +74,136 @@ body {
 .baltzer-web .image-background {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
   background: #FFFFFF;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.2s;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
 }
 
-.baltzer-web .first.image-background {
+.baltzer-web .first.images .first.image-background {
   z-index: 1;
   width: 546px;
   height: 357px;
-  border-radius: 3px;
   float: left;
   margin-top: 98px;
-  position: relative;
 }
 
-.baltzer-web .second.image-background {
+.baltzer-web .first.images .second.image-background {
   z-index: 2;
   width: 470px;
   height: 195px;
-  border-radius: 3px;
   float: right;
   margin-top: -97px;
-  position: relative;
 }
 
-.baltzer-web .first.image-background:hover {
+.baltzer-web .image-background:hover {
   box-shadow: 0 3px 6px 0 rgba(0,0,0,0.35);
-  bottom: 5px;
-  transition: left 1s linear;
-
+  transform: translateY(-5px);
 }
 
-.baltzer-web .second.image-background:hover {
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.35);
-  bottom: 5px;
-  transition: left 1s linear;
+.baltzer-web .second.text {
+  width: 717px;
+  margin: auto;
+  margin-top: 228px;
+  font-size: 20px;
+  color: #5F5F5F;
+  line-height: 28px;
+  text-align: center;
+}
 
+.baltzer-web .second.images {
+  margin: auto;
+  margin-top: 130px;
+  height: 1170px;
+  width: 1202px;
+}
+
+.baltzer-web .second.images .first.image-background {
+  position: absolute;
+  z-index: 1;
+  width:  408px;
+  height: 534px;
+  left: 0;
+}
+
+.baltzer-web .second.images .second.image-background {
+  margin: auto;
+  position: absolute;
+  z-index: 2;
+  width:  701px;
+  height: 352px;
+  right: 0;
+  margin-top: 304px;
+}
+
+.baltzer-web .second.images .third.image-background {
+  position: absolute;
+  z-index: 3;
+  width:  486px;
+  height: 611px;
+  right: 0;
+}
+
+.baltzer-web .second.images .fourth.image-background {
+  position: absolute;
+  z-index: 3;
+  width:  266px;
+  height: 266px;
+  margin-top: 409px;
+  left: 0;
+}
+
+.baltzer-web .second.images .first.text {
+  font-size: 18px;
+  color: #5F5F5F;
+  line-height: 30px;
+  width: 558px;
+  margin-top: 0;
+  margin-right: 83px;
+}
+
+.baltzer-web .second.images .second.text {
+  font-size: 18px;
+  color: #5F5F5F;
+  line-height: 30px;
+  width: 500px;
+  text-align: left;
+  float: left;
+  margin-top: 126px;
+  margin-left: 24px;
+}
+
+.baltzer-web .video {
+  border-radius: 4px;
+  width: 1056px;
+  display: block;
+  margin: auto;
+  margin-top: 42px;
+}
+
+.baltzer-web .third.text {
+  margin-top: 117px;
+  font-size: 22px;
+  color: #5F5F5F;
+  text-align: center;
+  font-weight: 600;
+}
+
+.baltzer-web .fourth.text {
+  margin: auto;
+  margin-top: 29px;
+  font-size: 16px;
+  color: #5F5F5F;
+  text-align: center;
+  line-height: 27px;
+  width: 464px;
+}
+
+.baltzer-web .line {
+  margin: auto;
+  margin-top: 50px;
+  width: 696px;
+  height: 1px;
+  background-color: #e4e4e4;
 }
